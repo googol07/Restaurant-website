@@ -90,7 +90,7 @@ class Contact extends Component {
              <div className="col-12 col-md-9">
                  <Form onSubmit={this.handleSubmit}>
                      <FormGroup row>
-                         <Label htmlFor="firstname" md={2}>First Name</Label>
+                         <Label htmlFor="firstname" md={2}>First Name</Label>                              //The for attribute(htmlFor) is used in labels. It refers to the id of the element this label is associated with      
                          <Col md={10}>
                              <Input type="text" id="firstname" name="firstname"
                                  placeholder="First Name"
